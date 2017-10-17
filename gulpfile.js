@@ -19,9 +19,9 @@ gulp.task('webserver', function () {
 });
 
 // Copy index.html file
-gulp.task('build.index', function(){
+gulp.task('build.index', function () {
     return gulp.src('./src/index.html')
-      .pipe(gulp.dest('./dist'));
-  });
+        .pipe(gulp.dest('./dist'));
+});
 
 gulp.task('default', ['webpack', 'webserver', 'build.index']);

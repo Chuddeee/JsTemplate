@@ -1,4 +1,4 @@
-let hello = function(){
+let hello = function () {
     return 'hello world';
 }
 
