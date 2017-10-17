@@ -7,7 +7,7 @@ module.exports = {
     output: {
         path: "/dist/js",
         publicPath: "/dist/",
-        filename: "main.js"
+        filename: "app.js"
     },
     watch: true,
     module: {
